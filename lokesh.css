@@ -1,0 +1,101 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#survey-form{
+    background-color: rgb(203, 196, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    padding: 0;
+    margin: auto;
+    border-radius: 15px;
+}
+#description{
+    text-align: center;
+    font-weight: bolder;
+}
+.quality{
+    border-width: 0;
+    padding: 1%;
+}
+.details{
+    position: relative;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;    
+}
+.left{
+    width: 30%;
+    padding-right:4%;
+    text-align:right;
+}
+.right{
+    width: 30%;
+}
+.input-field{
+    height: 20px;
+    width: 20%;
+    padding: 0.5%;
+    border-radius: 2px;
+}
+#dropdown{
+    height: 20px;
+}
+.checkbox{
+    height: 20px;
+    width: auto;
+}
+.radio{
+    position: relative;
+}
+h2{
+    position:relative;
+    bottom:8px;
+    font-size:16px;
+    text-align:center;
+    font-weight:bold;
+  }
+  
+  .commentbox{
+    text-align:center;
+  }
+  
+  textarea{
+    width:65%;
+    border-radius:4px;
+  }
+  
+  #submit{
+    background:#FFE4E1;
+    font-family:Roboto;
+    border-radius:4px;
+    font-size:23px;
+  }
+  
+  label:hover{
+    cursor:pointer;
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 580px) {
+    body {
+      font-size: 9px;
+    }
+  }
+  
+  
+  

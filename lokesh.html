@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lokesh</title>
+    <link rel="stylesheet" href="lokesh.css">
+</head>
+<body>
+    <header>
+        <div id="title"><h1>Survey form</h1>
+    </header>
+    <form id="survey-form">
+    <div id="description">let us know about the customer review</div>
+
+    <fieldset class="quality">
+        <div class="details">
+            <label class="left" id="name-label" for="name" >Name:</label>
+            <input type="text" id="name" name="customer-name" class="input-field" placeholder="Enter ur name">
+        </div><div class="details">
+            <label class="left" id="Email" for="name" >Email:</label>
+            <input type="text" id="email" name="Email-address" class="input-field" placeholder="Enter ur email">
+        </div>
+        <div class="details">
+            <label class="left" id="number-label" for="number" >Age:</label>
+            <input type="number" id="number" min="0" max="100"  class="right input-field" placeholder="Age">
+        </div>
+        <div class="details">
+            <label class="left" id="Landline picker-label" for="phone number" >Landline picker:</label>
+            <input type="text" id="Landline picker" name="phone number" class="input-field" placeholder="Enter ur number">
+        </div>
+        <div class="details">
+            <label class="left" id="dropdown" for="name" >Are you first time playing?</label>
+           <select class="dropdown" id="dropdown" name="dropdown">
+            <option selection disabled>select one option</option>
+            <option value="1">first time ever</option>
+            <option value="2">already played</option>
+           </select>
+        </div>
+    </fieldset>
+    <fieldset class="quality">
+        <div class="details">
+            <label class="left">what are the games you know to play?</label>
+            <ul style="list-style: none;" class="right">
+            <li class="checkbox"><label><input type="checkbox" name="checkbox">cricket</label></li>
+            <li class="checkbox"><label><input type="checkbox" name="checkbox">football</label></li>
+            <li class="checkbox"><label><input type="checkbox" name="checkbox">volleyball</label></li>
+            <li class="checkbox"><label><input type="checkbox" name="checkbox">hockey</label></li>
+            <li class="checkbox"><label><input type="checkbox" name="checkbox">kabaddi</label></li>
+        
+        
+     </ul>
+        </div>
+
+    </fieldset>
+
+    <fieldset class="quality">
+        <div class="details">
+
+         <label class="left">will recomend this game to ur friends</label>
+
+            <ul style="list-style: none;" class="right">
+            <li class="radio"><label><input type="radio" name="radio-buttons" value="1">Yes</label></li>
+            <li class="radio"><label><input type="radio" name="radio-buttons" value="2">no</label></li>
+            <li class="radio"><label><input type="radio" name="radio-buttons" value="3">may be</label></li>
+           
+            
+
+        </ul>
+
+        </div>
+
+    </fieldset>
+
+    <fieldset class="quality">
+        <div class="details">
+        
+            <h2>type ur comments here</h2>
+            <div class="commentbox">
+                <textarea rows="4" id="commentbox-"  placeholder="type ur comments"></textarea>
+            </div>
+            <br>
+          
+        </div>
+        <div class="details"><button>submit</button></div>
+        
+    </fieldset>
+    
+
+    </form>
+</div>
+</body>
+</html>
